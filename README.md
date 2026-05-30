@@ -49,24 +49,21 @@ SwiftUI App
 
 ---
 
-## Project Status
+## Getting Started
 
-Reviewed baseline as of 2026-05-13. Verified:
-
-- [x] Project structure and Xcode configuration
-- [x] Sandbox and network entitlements
-- [x] Core data flows and storage paths
-- [x] Native UI + web hybrid architecture
-
-Future development should build on this architecture while respecting the documented data flows and storage paths.
+1. Clone the repository on macOS.
+2. Open `Syntax.xcodeproj` in Xcode.
+3. Select the `Syntax` scheme and a macOS target.
+4. In **Signing & Capabilities**, select your Apple Developer team.
+5. Build and run — log in to your Syntax Institut account in the embedded browser.
 
 ---
 
 ## Privacy & Security
 
-- This repository does not intentionally include private personal data.
+- This repository does not include any private personal data.
 - The app operates against the public Syntax Institut web platform.
-- Personal Xcode user data has been removed from version control.
+- Personal Xcode user data (`xcuserdata`) is excluded via `.gitignore`.
 
 ---
 
