@@ -69,4 +69,4 @@ SwiftUI App
 
 ## License
 
-No license selected yet.
+MIT — see [LICENSE](LICENSE).
